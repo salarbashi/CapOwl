@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FinancialManagerAgent": {
+      "commandName": "Project",
+      "commandLineArgs": "100\r\nTest.csv\r\nfalse\r\ntrue"
+    }
+  }
+}
