@@ -10,4 +10,5 @@ export class EndPoints
   //Angular routing
   static routingWatchList = 'watchlist';
   static routingHome = '';
+  static routingPortfolio = 'portfolio';
 }

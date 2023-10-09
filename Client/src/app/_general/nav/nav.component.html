@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Financial Manager</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -18,4 +18,35 @@
             <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
-</nav>
+</nav> -->
+<style>
+    .sidebar {
+        width: 250px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 20px;
+    }
+</style>
+<div class="sidebar text-white bg-dark">
+    <a href="/" class="d-flex align-items-center text-white text-decoration-none">
+        <i class="fa-lg fa-solid fa-eye mr-2 col-1"></i>
+        <h2 class="col justify-content-center">CapOwl</h2>
+    </a>
+    <hr>
+    <ul class="nav nav-pills flex-column mb-auto">
+        <li>
+            <a class="nav-link text-white" routerLink="/portfolio" routerLinkActive="active">
+                <i class="fa-solid fa-chart-pie mr-2"></i>
+                Portfolio
+            </a>
+        </li>
+        <li>
+            <a class="nav-link text-white" routerLink="/watchlist" routerLinkActive="active">
+                <i class="fa-solid fa-list-check mr-2"></i>
+                Watch List
+            </a>
+        </li>
+    </ul>
+</div>

@@ -27,7 +27,6 @@ import { TickerSearchComponent } from './_general/ticker-search/ticker-search.co
     HttpClientModule,
     FormsModule,
     AppRoutingModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot({positionClass: 'toast-bottom-right'})
   ],
